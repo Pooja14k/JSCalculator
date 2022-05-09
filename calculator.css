@@ -1,28 +1,40 @@
+body{
+  background-color: rgb(10, 10, 17);
+}
 .container{
     max-width: 400px;
     margin: 10vh auto 0 auto;
     box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+    border-radius: 10%;
   }
   
   #display{
+    background-color:antiquewhite;
     text-align: right;
     height: 70px;
     line-height: 70px;
     padding: 16px 8px;
     font-size: 25px;
+    border-style: groove;
+    border-color: black;
+    
   }
   
   .buttons{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color:rgb(211, 216, 172);
+    
   }
   
   .button {
-    border: 0.5px solid #999;
+    border: 1px solid rgb(14, 17, 8);
     line-height: 100px;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     cursor: pointer;
+    border-radius: 10% 10% 10% 10% ;
+    border-style:double;
   }
   
   #equal {
@@ -31,7 +43,7 @@
   }
   
   .button:hover{
-    background-color: #978e8e;
+    background-color: rgb(4, 10, 10);
     color: white;
     transition: 0.5s ease-in-out;
   }
